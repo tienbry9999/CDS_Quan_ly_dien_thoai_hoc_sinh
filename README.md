@@ -1,4 +1,39 @@
+# 📱 SmartClass Monitor – Ứng dụng giám sát và cảnh báo thời gian sử dụng điện thoại
 
+**Tác giả:** Phạm Văn Duy, Đỗ Trọng Minh Tiến  
+**Nhóm 2:** – CNTT 16-03  
+**Giảng viên hướng dẫn:** Ks. Nguyễn Văn Nhân  
+**Khoa:** Công Nghệ Thông Tin – Trường Đại học Đại Nam, Việt Nam  
+
+---
+
+## 🧩 Giới thiệu
+
+**SmartClass Monitor** là hệ thống web hỗ trợ **giảng viên và sinh viên** trong việc **giám sát, cảnh báo và phân tích hành vi sử dụng điện thoại** trong lớp học – một vấn đề nổi bật trong bối cảnh **chuyển đổi số trong giáo dục**.
+
+Hệ thống giúp:
+- Theo dõi **thời gian sử dụng điện thoại** của sinh viên theo thời gian thực.  
+- Gửi **cảnh báo tự động** khi sinh viên vượt quá giới hạn sử dụng cho phép.  
+- Cung cấp **báo cáo và biểu đồ thống kê** hành vi học tập.  
+- Ứng dụng **AI** để phân tích và dự đoán xu hướng mất tập trung.  
+
+## 🎯 Mục tiêu
+
+- **Giám sát thời gian thực** việc sử dụng điện thoại trong lớp học.
+- **Cảnh báo thông minh** khi sinh viên vượt ngưỡng cho phép.
+- **Phân tích hành vi học tập** bằng mô hình AI.
+- **Báo cáo chi tiết** cho giảng viên dưới dạng biểu đồ và file PDF/Excel.
+- **Bảo mật và mở rộng** theo chuẩn GDPR và Luật An ninh mạng Việt Nam.
+
+## ⚙️ Kiến trúc hệ thống
+
+Hệ thống được xây dựng theo mô hình **Client–Server 3 tầng**:
+
+ReactJS (Frontend)
+↓
+Node.js / Express (Backend API + Socket.IO)
+↓
+MongoDB (Database) + AI Engine (Python Flask)
 ### 🧠 Công nghệ sử dụng
 
 | Thành phần | Công nghệ | Mô tả |
