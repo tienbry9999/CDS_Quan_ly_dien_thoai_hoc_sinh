@@ -74,11 +74,11 @@ MongoDB (Database) + AI Engine (Python Flask)
 - Biểu đồ: cột, tròn, heatmap, radar, scatter.
 - Báo cáo tự động gửi email hàng tuần.
 <img width="1902" height="903" alt="image" src="https://github.com/user-attachments/assets/639d51f4-c90a-423f-ba2b-5dce8e5657e6" />
-###  🔹 5. Cách chạy dự án (chỉ 3 bước – siêu nhanh)
+### 5. Cách chạy dự án (chỉ 3 bước – siêu nhanh)
 
 **Yêu cầu:** Node.js ≥ 18 đã cài sẵn
 
-1. **Chạy Backend** (mở Terminal/PowerShell)
+1. **Chạy Backend** (mở Terminal/PowerShell)  
    ```powershell
    cd "D:\BTL_CDS\classguard\classguard\classguard-connect\backend"
    node server.js
@@ -88,13 +88,11 @@ Chạy Frontend (mở Terminal thứ 2)powershellcd "D:\BTL_CDS\classguard\class
 npm run dev→ Thấy Local: http://localhost:8080/ là OK
 Truy cập hệ thống giảng viên
 Mở trình duyệt → http://localhost:8080
-(Trợ lý AI + Dashboard sẽ hiện ngay)
+→ Dashboard + Trợ lý AI hiện ngay lập tức!
 
 Để có dữ liệu realtime (bắt buộc khi demo):
-
 Mở file test sinh viên trong thư mục public/
 → test-hs001.html, test-hs002.html, ...
 → Nhấn chuột phải → Open with Live Server
 → Hoặc mở bằng Chrome trên điện thoại (cùng wifi)
-
-Xong! Mở TikTok/YouTube/Facebook trên file test → dữ liệu, biểu đồ, cảnh báo và Trợ lý AI sẽ cập nhật tức thì trên màn hình .
+Xong! Mở TikTok/YouTube/Facebook trên file test → dữ liệu, biểu đồ, cảnh báo và Trợ lý AI sẽ cập nhật tức thì trên màn hình giảng viên
