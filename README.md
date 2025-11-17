@@ -68,15 +68,14 @@ MongoDB (Database) + AI Engine (Python Flask)
 - Gửi email khi sinh viên vi phạm nhiều lần.
 <img width="1904" height="917" alt="image" src="https://github.com/user-attachments/assets/95d8c26a-5b1f-48db-bebc-de439853d35f" />
 
-
 ### 🔹 4. Báo cáo
+
 - Sinh báo cáo định dạng **.pdf** hoặc **.xlsx**.
 - Biểu đồ: cột, tròn, heatmap, radar, scatter.
 - Báo cáo tự động gửi email hàng tuần.
 <img width="1902" height="903" alt="image" src="https://github.com/user-attachments/assets/639d51f4-c90a-423f-ba2b-5dce8e5657e6" />
-### 5. Cách chạy dự án (chỉ 3 bước – siêu nhanh)
 
-**Yêu cầu:** Node.js ≥ 18 đã cài sẵn
+### 🔹 **5. Cách chạy dự án**
 
 1. **Chạy Backend** (mở Terminal/PowerShell)  
    ```powershell
@@ -84,8 +83,11 @@ MongoDB (Database) + AI Engine (Python Flask)
    node server.js
 → Thấy Backend: http://localhost:3000 + MongoDB OK! là thành công
 
-Chạy Frontend (mở Terminal thứ 2)powershellcd "D:\BTL_CDS\classguard\classguard\classguard-connect"
-npm run dev→ Thấy Local: http://localhost:8080/ là OK
+2. **Chạy end** (mở Terminal thứ 2)
+   ```powershell
+   cd "D:\BTL_CDS\classguard\classguard\classguard-connect"
+   npm run dev
+→ Thấy Local: http://localhost:8080/ là OK
 Truy cập hệ thống giảng viên
 Mở trình duyệt → http://localhost:8080
 → Dashboard + Trợ lý AI hiện ngay lập tức!
