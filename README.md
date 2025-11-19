@@ -1,9 +1,23 @@
-# 📱 SmartClass Monitor – Ứng dụng giám sát và cảnh báo thời gian sử dụng điện thoại
+<h2 align="center"> 
+     <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin"> 
+     🎓 Faculty of Information Technology (DaiNam University) 
+     </a> 
+ </h2> 
+ <h2 align="center"> 
+    ỨNG DỤNG GIÁM SÁT VÀ CẢNH BÁO THỜI GIAN SỬ DỤNG ĐIỆN THOẠI
+ </h2> 
+ <div align="center"> 
+     <p align="center"> 
+         <img alt="AIoTLab Logo" width="170" src="https://github.com/user-attachments/assets/711a2cd8-7eb4-4dae-9d90-12c0a0a208a2" /> 
+         <img alt="AIoTLab Logo" width="180" src="https://github.com/user-attachments/assets/dc2ef2b8-9a70-4cfa-9b4b-f6c2f25f1660" /> 
+         <img alt="DaiNam University Logo" width="200" src="https://github.com/user-attachments/assets/77fe0fd1-2e55-4032-be3c-b1a705a1b574" /> 
+     </p> 
 
-**Tác giả:** Phạm Văn Duy, Đỗ Trọng Minh Tiến  
-**Nhóm 2:** – CNTT 16-03  
-**Giảng viên hướng dẫn:** Ks. Nguyễn Văn Nhân  
-**Khoa:** Công Nghệ Thông Tin – Trường Đại học Đại Nam, Việt Nam  
+ [![AIoTLab](https://img.shields.io/badge/AIoTLab-green?style=for-the-badge)](https://www.facebook.com/DNUAIoTLab) 
+ [![Faculty of Information Technology](https://img.shields.io/badge/Faculty%20of%20Information%20T…he-badge)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin) 
+ [![DaiNam University](https://img.shields.io/badge/DaiNam%20University-orange?style=for-the-badge)](https://dainam.edu.vn) 
+ 
+ </div> 
 
 ---
 
@@ -52,30 +66,26 @@ MongoDB (Database) + AI Engine (Python Flask)
 - Hiển thị trạng thái thiết bị đang hoạt động.
 - Thống kê tỷ lệ sinh viên tuân thủ quy định.
 - Biểu đồ thống kê theo thời gian.
-<img width="1887" height="886" alt="image" src="https://github.com/user-attachments/assets/2bc2959d-c74f-4548-98ae-c801769f7df9" />
-
+<img width="1894" height="600" alt="image" src="https://github.com/user-attachments/assets/e30c37eb-145e-42b3-a57a-e2c5ec896abe" />
 
 ### 🔹 2. Quản lý thiết bị
 - Danh sách thiết bị đang kết nối.
 - Gán thiết bị cho sinh viên, tìm kiếm theo tên/lớp.
 - Cập nhật hoặc xóa thiết bị.
-<img width="1895" height="908" alt="image" src="https://github.com/user-attachments/assets/a7242189-42ae-44ea-8ccf-fd9810077cce" />
-
+<img width="1813" height="600" alt="image" src="https://github.com/user-attachments/assets/09bc5905-dff4-4224-b7aa-38885fa239bf" />
 
 ### 🔹 3. Cảnh báo
 - Cảnh báo **real-time** bằng Socket.IO.
 - Mức độ cảnh báo: *nhẹ – trung bình – nghiêm trọng*.
 - Gửi email khi sinh viên vi phạm nhiều lần.
-<img width="1904" height="917" alt="image" src="https://github.com/user-attachments/assets/95d8c26a-5b1f-48db-bebc-de439853d35f" />
+<img width="1887" height="600" alt="image" src="https://github.com/user-attachments/assets/c72f6914-2cf2-4ce7-a601-5e16f517e85f" />
 
 ### 🔹 4. Báo cáo
-
 - Sinh báo cáo định dạng **.pdf** hoặc **.xlsx**.
 - Biểu đồ: cột, tròn, heatmap, radar, scatter.
 - Báo cáo tự động gửi email hàng tuần.
-<img width="1902" height="903" alt="image" src="https://github.com/user-attachments/assets/639d51f4-c90a-423f-ba2b-5dce8e5657e6" />
-
-### 🔹 **5. Cách chạy dự án**
+<img width="1340" height="600" alt="image" src="https://github.com/user-attachments/assets/4b044618-1dc8-423a-9215-fd383baeae56" />
+### 🔹 5. Cách chạy dự án
 
 1. **Chạy Backend** (mở Terminal/PowerShell)  
    ```powershell
@@ -98,3 +108,9 @@ Mở file test sinh viên trong thư mục public/
 → Nhấn chuột phải → Open with Live Server
 → Hoặc mở bằng Chrome trên điện thoại (cùng wifi)
 Xong! Mở TikTok/YouTube/Facebook trên file test → dữ liệu, biểu đồ, cảnh báo và Trợ lý AI sẽ cập nhật tức thì trên màn hình giảng viên
+
+## 6. Thông tin liên hệ  
+**Tác giả:** Phạm Văn Duy, Đỗ Trọng Minh Tiến  
+**Nhóm 2:** CNTT 16-03  
+**Giảng viên hướng dẫn:** Ks. Nguyễn Văn Nhân  
+**Khoa:** Công Nghệ Thông Tin – Trường Đại học Đại Nam, Việt Nam
